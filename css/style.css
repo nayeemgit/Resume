@@ -1,0 +1,136 @@
+*{margin: 0px;}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../img/pool_table.png);
+	background-repeat: repeat;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.login-section{
+	margin:5% auto;
+	width: 100%;
+}
+
+/* Header Section Start */
+
+.header-section{
+	width: 100%;
+	background: #1abc9c;
+	height: 118px;
+	padding-top: 51px;
+}
+.header-section hr{
+	height: 4px;
+	background: #000;
+	display: block;
+	margin: 0px auto;
+	width: 25%;
+	border: none;
+}
+.header-section h1{
+	text-align: center;	
+	letter-spacing: 3px;
+
+}
+.header-section p{
+	text-align: center;	
+	padding-top: 5px;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+/* Body section start */
+
+.body-left{
+	width: 31%;
+	padding: 45px;
+	float: left;
+	background:#ececec;
+}
+.body-right{
+	width: 52%;
+	
+	background: #fff;
+	float: left;
+	padding:51px;
+
+}
+.body-right h3{
+	background: #1abc9c;
+	padding: 3px 0px 3px 10px;
+	margin: 20px 0px;
+	letter-spacing: 2px;
+}
+.body-right p{
+	padding: 10px;
+
+}
+.body-left img{
+	display: block;
+	margin: 0px auto;
+	border-radius: 120px;
+	border: 3px solid #1abc9c;
+	height: 180px;
+	width: 180px;
+}
+.body-left h3{
+	background: #1abc9c;
+	padding: 3px 0px 3px 10px;
+	margin: 20px 0px;
+	letter-spacing: 2px;
+}
+
+/* Footer Section start */
+.footer-section{
+	width: 100%;
+	height: 120px;
+	background: #1abc9c;
+	float:left;
+}
+.f-section{
+	width: 33.33%;
+	float: left;
+}
+
+.f-section p{
+	text-align:center;
+	color: #000;
+	padding-top: 52px;
+	font-family: 'Niconne', cursive;
+	font-size: 25px;
+}
+
+/* Skill Bar */
+.skills-box{
+	padding: 0px 15px;
+}
+.skills{
+	width: 100%;
+	background-color: #ddd;
+}
+.skills-bar {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 25px;
+	color: white;
+}
+.html{
+	width: 90%; 
+	background-color: #4CAF50;
+}
+.css {
+	width: 80%; 
+	background-color: #2196F3;
+}
+.js {
+	width: 65%;
+	background-color: #f44336;
+}
+.php {width: 60%;
+	background-color: #808080;
+}
+
+.ref{
+	padding-left: 10px;
+}
